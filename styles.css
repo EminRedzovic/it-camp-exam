@@ -108,6 +108,12 @@ color: white;
         justify-content: center;
         align-items: center;
     }
+    .second-section{
+        height: 100vh;
+    }
+    .third-sectionn{
+        padding-top: 100px;
+    }
 }
 .nesto{
     background-color: none;
