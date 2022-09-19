@@ -259,8 +259,8 @@ color: white;
     text-transform: uppercase
 }
 .first-card,.second-card,.third-card{
-    width: 360px;
-    height: 300px;
+    width: 320px;
+    height: 222px;
 }
 .second-section{
     height: 100vh;
@@ -296,4 +296,34 @@ color: white;
 .slikaaa{
     height: 80px;
     width: 80px;
+}
+.third-sectionn{
+    height: 100vh;
+
+}
+.third-first{
+    height: 30vh;
+}
+.third-second{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.paragrafn1{
+    font-size: 14px;
+    font-family: "Roboto",sans-serif;
+    color: #777;
+}
+.headern1{
+    padding-top: 90px;
+    font-family: "Heebo",sans-serif;
+    font-size: 33px;
+    color: #222;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.third-section-img{
+    height: auto;
+    width: auto;
 }
