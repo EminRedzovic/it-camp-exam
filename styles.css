@@ -8,6 +8,7 @@
     align-items: center;
     background-image: -webkit-linear-gradient(3deg, #4dabff 0%, #62ddff 100%);
     color: white;
+    z-index: 1;
 }
 .brand-tittle{
     font-size: 1.5rem;
@@ -95,6 +96,7 @@ color: white;
         background-color: black;
     }
     .navbar{
+        background-image: none;
         background-color: black;
     }
     .first-section img{
@@ -835,4 +837,60 @@ align-items: center;
 }
 .emojiua{
     margin-right: 15px;
+}
+/* About */
+.about-first{
+    background: #3bacf0;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.about-header{
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-family: Heebo, sans-serif;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.about-home{
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-family: Roboto, sans-serif;
+    margin-right: 15px;
+    text-decoration: none;
+}
+.about-home:hover{
+    color: white;
+}
+.about-about{
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-family: Roboto, sans-serif;
+    /* margin-right: 15px; */
+    text-decoration: none;
+}
+.about-about:hover{
+    color: white;
+}
+.atributi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+.nesaaa{
+    text-align: center;
+}
+/* Contact us */
+.section-contact{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.mapa{
+    display: flex;
+    
+    width: 80%;
 }
