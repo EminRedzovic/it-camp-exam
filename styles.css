@@ -349,7 +349,8 @@ color: white;
 /* Treca sekcija */
 .section-third {
     background-color: #edf6ff;
-    height: 80vh;
+    padding-top: 120px;
+    padding-bottom: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -456,7 +457,8 @@ color: white;
     
 /* Cetvrta sekcija */
 .third-sectionn{
-    height: 100vh;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .third-first{
     height: 30vh;
@@ -473,7 +475,7 @@ color: white;
     color: #777;
 }
 .headern1{
-    padding-top: 90px;
+    /* padding-top: 90px; */
     font-family: "Heebo",sans-serif;
     font-size: 33px;
     color: #222;
@@ -509,6 +511,7 @@ color: white;
     font-family: "Heebo",sans-serif;
     font-weight: bold;
     margin-bottom: 20px;
+    padding-top: 30px;
 }
 .fifth-section-header2{
 color: #222;
@@ -693,4 +696,57 @@ font-family: "Roboto",sans-serif;
 .seven-ua:hover{
     color: rgb(67, 163, 207);
     transition: 0.6s;
+}
+.seventh-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+/* Osma sekcija */
+.eighth-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+/* Deveta sekcija */
+.ninth-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-image: -webkit-linear-gradient(3deg, #4dabff 0%, #62ddff 100%);
+}
+.ninth-content{
+    display: flex;
+    flex-direction: column;
+align-items: center;
+}
+.ninth-header{
+    color: #fff;
+    font-size: 36px;
+    font-family: "Heebo",sans-serif;
+    font-weight: bold;
+    margin-bottom: 18px;
+    text-align: center;
+}
+.ninth-paragraph{
+    color: #fff;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.ninth-button{
+    text-decoration: none;
+    display: inline-block;
+    background: #fff;
+    color: #222;
+    font-family: "Roboto",sans-serif;
+    width: 200px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid rgba(255,255,255,.5);
+    border-radius: 3px;
+    text-align: center;
+    transition: 0.5s;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.ninth-button:hover{
+    color: white;
+    background-image: -webkit-linear-gradient(3deg, #4dabff 0%, #62ddff 100%);
 }
