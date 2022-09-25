@@ -110,10 +110,10 @@ color: white;
         justify-content: center;
         align-items: center;
     }
-    .second-section{
+    /* .second-section{
         height: 100vh;
         margin-bottom: 300px!important;
-    }
+    } */
     .third-sectionn{
         padding-top: 180px;
     }
@@ -287,11 +287,11 @@ color: white;
 }
 /* Druga sekcija */
 .second-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 110px;
-    padding-bottom: 120px;
 }
 .second-section .second-text {
     text-align: center;
@@ -845,6 +845,7 @@ align-items: center;
     display: flex;
     align-items: center;
     justify-content: center;   
+    padding-bottom: 120px;
 }
 .about-header{
     color: rgb(255, 255, 255);
