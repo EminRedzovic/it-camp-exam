@@ -36,7 +36,8 @@
     display: block;
     text-transform: uppercase;
     font-family: "Roboto", sans-serif;
-    font-size: 14px;
+    font-size: 12px;
+    
 }
 .atribut2:hover{
     color: white;
@@ -891,7 +892,41 @@ align-items: center;
     padding-bottom: 120px;
 }
 .mapa{
+    width: 100%;
+}
+.mapa-centar{
+    text-align: center;
+}
+.ispod-mape h6{
+    display: inline;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Roboto" , sans-serif;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: #222;
+}
+.ispod-mape p{
+    font-size: 14px;
+    font-family: "Roboto",sans-serif;
+    font-weight: normal;
+    color: #777;
+    padding-left: 27px;
+}
+.ispod-mape i{
+    color: #3bacf0;
+    font-weight: 600;
+    font-size: 20px;
+}
+.crnac{
     display: flex;
-    
-    width: 80%;
+    flex-direction: column;
+    /* max-width: 50%; */
+}
+.crnac2{
+    float: right;
+}
+.contact-us-dole{
+    display: flex;
+    flex-direction: row;
 }
