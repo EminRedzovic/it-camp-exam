@@ -980,3 +980,105 @@ align-items: center;
 .contact-dugme:hover{
     color: white;
 }
+/* Blog */
+.blog-first-section{
+    height: 100vh;
+    background: url(https://preview.colorlib.com/theme/nexus/img/banner/xbanner-2.jpg.pagespeed.ic.SHDwazhIug.jpg) no-repeat scroll center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-first-section h2{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: "Roboto",sans-serif;
+    line-height: 66px;
+    margin-bottom: 15px;
+}
+.blog-first-section p{
+    text-align: center;
+    color: white;
+    font-family: "Roboto",sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+.blog-button{
+    border: none;
+    text-align: center;
+    font-size: 14px;
+    font: "Roboto",sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #222;
+    background-color: white;
+    padding: 10px;
+    text-decoration: none;
+    padding-right: 35px;
+    padding-left: 35px;
+    transition: 0.5s;
+}
+.blog-button:hover{
+    transition: 0.5s;
+    color: white;
+    background-image: -webkit-linear-gradient(3deg, #4dabff 0%, #62ddff 100%);
+}
+.fixx{
+    display: flex;
+    justify-content: center;
+}
+.blog-head a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.linija{
+    text-align: center;
+    width: 200px;
+    color: white;
+    background-color: white;
+    height: 2px;
+    display: block;
+}
+.blog-head img{
+    width: 317px;
+}
+.blog-kategorije{
+    position: relative;
+    cursor: pointer;
+}
+.blog-kategorije:hover .kategorija-content{
+    
+}
+.kategorija-content{
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    inset: 20px;
+    width: 280px;
+}
+.blog-head p{
+    text-align: center;
+    color: white;
+    font-family: "Roboto",sans-serif;
+    font-weight: normal;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+}
+.kategorija-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.testaa{
+
+
+}
