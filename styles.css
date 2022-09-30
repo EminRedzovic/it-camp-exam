@@ -1046,22 +1046,39 @@ align-items: center;
     height: 2px;
     display: block;
 }
-.blog-head img{
-    width: 317px;
-}
+
 .blog-kategorije{
     position: relative;
     cursor: pointer;
+    width: 289px;
+    height: 177px;
 }
+@media (min-width: 992px){
+.crnode {
+    flex: 0 0 auto;
+    width: 289px;
+    height: 177px;
+}
+}
+@media (max-width: 992px){
+    .crnode {
+        padding-top: 25px;
+    }
+    }
 .blog-kategorije:hover .kategorija-content{
-    
+    background-color:rgb(59, 172, 240,.7);
+    transition: 0.5s;
 }
 .kategorija-content{
-    background-color: black;
-    opacity: 0.5;
+    background-color: rgb(1,1,1,.7);
+    transition: 0.5s;
     position: absolute;
     inset: 20px;
-    width: 280px;
+    width: 249px;
+}
+.blog-head img{
+    width: 100%;
+    height: 100%;
 }
 .blog-head p{
     text-align: center;
@@ -1078,7 +1095,92 @@ align-items: center;
     justify-content: center;
     align-items: center;
 }
-.testaa{
-
-
+.uatr{
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    /* padding-left: 150px;
+    padding-right: 150px; */
+    padding-top: 100px;
+}
+@media(max-width:992px){
+    .uatr{
+        display: flex!important;
+        flex-direction: column!important;
+        align-items: center;
+    }
+}
+.blog-second{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.bro{
+    text-decoration: none;
+    font-family: "Roboto",sans-serif;
+    color: #222;
+}
+.bro:hover{
+    color: gray;
+}
+.nbtn{
+    color: #3bacf0;
+    text-decoration: none;
+}
+.nbtn:hover{
+    color: #3bacf0;
+}
+.text-blo{
+    cursor: pointer;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgb(34, 34, 34);
+    font-weight: 600;
+    transition: 0.5s;
+}
+.text-blo:hover{
+    color: #3bacf0;
+    transition: 0.5s;
+}
+.blog-slika-text p{
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+    color: rgb(119, 119, 119);
+}
+.DUGMEBR{
+    border: none;
+    text-align: center;
+    font-size: 14px;
+    font: "Roboto",sans-serif!important;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #222;
+    background-color: white;
+    padding: 10px;
+    text-decoration: none;
+    padding-right: 35px;
+    padding-left: 35px;
+    transition: 0.5s;
+}
+.DUGMEBR:hover{
+    transition: 0.5s;
+    color: white;
+    background-image: -webkit-linear-gradient(3deg, #4dabff 0%, #62ddff 100%);
+}
+.blog-smth{
+    padding-left:100px;
+}
+.second-bl{
+    text-align: right;
+}
+.third-bl{
+    text-align: right;
+}
+.fourth-bl{
+    text-align: right;
+}
+.fifth-bl{
+    text-align: right;
 }
