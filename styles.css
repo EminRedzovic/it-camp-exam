@@ -142,7 +142,7 @@ color: white;
 .dugme{
     padding: 0;
     margin: 0;
-    background-color: #81d6f5;
+    background-color: rgba(255, 255, 255, 0.1);
     border: 0.5px solid white;
     padding: 10px;
     text-decoration: none;
@@ -203,12 +203,14 @@ color: white;
     text-align: center;
     cursor: pointer;
     font-family: "Roboto",sans-serif;
-    background-color: rgb(108, 175, 247);
+    background-color: rgba(255, 255, 255, 0.1);
     color: white;
     padding: 15px;
     border: 0.5px solid white;
     transition: 0.5s;
     margin-right: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .First-Button:hover{
     color: black;
@@ -229,6 +231,8 @@ color: white;
     padding: 15px;
     border: 0.5px solid white;
     transition: 0.5s;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 .Second-Button:hover{
     background-color: #6db2fc;
@@ -236,13 +240,16 @@ color: white;
     transition: 0.5s;
 }
 .First-section-image{
-    height: 350px;
+    width: auto;
+    height: 390px;
+    vertical-align: middle;
+    padding-right: 80px;
 }
 .First-section-heading{
     justify-content: center;
     align-items: center;
-    text-align: center;
-/* margin-left: 134px; */
+    text-align: start;
+padding-left: 134px;
 font-size: 36px;
 font-family: "Heebo",sans-serif;
 font-weight: bold;
@@ -250,16 +257,17 @@ color: white;
 /* margin-top: 250px; */
 }
 .First-section-paragraph{
-    text-align: center;
-    /* margin-left: 134px; */
+    text-align: start;
+    padding-left: 134px;
     font-family: "Roboto",sans-serif;
     color: white;
     /* margin-top: 30px; */
 }
 .button-div{
-    display: flex;
+    padding-left: 134px;
+    /* display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: center; */
 }
 .test{
     flex: 1;
@@ -690,6 +698,10 @@ font-family: "Roboto",sans-serif;
     margin-bottom: 90px;
     text-align: center;
 }
+.seventh-card{
+
+    border-radius: 5px;
+}
 .paragraph-seven{
     font-size: 14px;
     font-family: "Roboto",sans-serif;
@@ -699,6 +711,9 @@ font-family: "Roboto",sans-serif;
     padding-left: 20px;
 }
 .nesto{
+}
+.seventh-section{
+    background-color: #edf6ff;
 }
 .seven-ua{
     display:block;
@@ -1202,18 +1217,22 @@ align-items: center;
 .second-bl{
     text-align: right;
     padding-top: 30px;
+    transition: 0.5s;
 }
 .third-bl{
     text-align: right;
     padding-top: 1px;
+    transition: 0.5s;
 }
 .fourth-bl{
     text-align: right;
     padding-top: 1px;
+    transition: 0.5s;
 }
 .fifth-bl{
     text-align: right;
     padding-top: 1px;
+    transition: 0.5s;
 }
 .blog-smth{
     font: 300 14px / 20px Roboto, sans-serif;
@@ -1231,3 +1250,20 @@ align-items: center;
     display: flex;
     justify-content:center;
 }
+.third-bl:hover .najjace{
+    color: #3bacf0;
+    transition: 0.5s;
+}
+.fourth-bl:hover .najjace{
+    color: #3bacf0;
+    transition: 0.5s;
+}
+.fifth-bl:hover .najjace{
+    color: #3bacf0;
+    transition: 0.5s;
+}
+.second-bl:hover .najjace{
+    color: #3bacf0;
+    transition: 0.5s;
+}
+
