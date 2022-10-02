@@ -150,7 +150,7 @@ color: white;
     margin-right: 50px;
     text-align: center;
     transition: 0.5s;
-    border-radius: 2px;
+    border-radius: 4px;
     width: 134px;
     height: 45px;
     font-family: "Roboto",sans-serif;
@@ -255,6 +255,21 @@ font-family: "Heebo",sans-serif;
 font-weight: bold;
 color: white;
 /* margin-top: 250px; */
+}
+@media(max-width:600px){
+    .First-section-heading{
+        padding-left: 0px;
+        text-align: center;
+    }
+    .First-section-paragraph{
+        padding-left: 0px!important;
+        text-align: center!important;
+    }
+    .button-div{
+        padding-left: 0px!important;
+        display: flex;
+        justify-content: space-around;
+    }
 }
 .First-section-paragraph{
     text-align: start;
